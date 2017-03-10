@@ -1,0 +1,17 @@
+package com.spring.demo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanScopeDemo {
+
+	public static void main(String[] args) {
+		
+		//Singleton Bean
+		ClassPathXmlApplicationContext applicationContext=new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+		Coach coach=applicationContext.getBean("myCoach",Coach.class);
+		Coach thecoach=applicationContext.getBean("myCoach",Coach.class);
+		
+		if()
+	}
+
+}

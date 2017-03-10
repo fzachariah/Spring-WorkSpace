@@ -1,0 +1,31 @@
+package com.spring.demo;
+
+public class CricketCoach implements Coach {
+
+	private FortuneService fortuneService;
+	private String emailAddress;
+	private String team;
+
+	public CricketCoach() {
+
+		System.out.println("CricketCoach:Inside Constructor");
+	}
+
+	public void setFortuneService(FortuneService fortuneService) {
+		System.out.println("CricketCoach:Inside Setter");
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Practice Fast Bowling";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+
+}

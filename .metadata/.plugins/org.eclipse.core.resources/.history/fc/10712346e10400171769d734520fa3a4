@@ -1,0 +1,19 @@
+package com.spring.demo;
+
+public class HelloSpringApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//load the spring configuration file
+		
+		
+		//retrive the bean
+		
+		//call methods on the bean	
+		
+		//close the context
+
+	}
+
+}
