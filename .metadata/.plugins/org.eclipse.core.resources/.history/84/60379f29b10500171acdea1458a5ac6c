@@ -1,0 +1,13 @@
+package com.sprting.annotations;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AnnotationBeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext applicationContext=new ClassPathXmlApplicationContext("applicationContex.xml");
+
+	}
+
+}
