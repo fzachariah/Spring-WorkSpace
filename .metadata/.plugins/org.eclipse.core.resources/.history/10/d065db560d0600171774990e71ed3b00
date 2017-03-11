@@ -1,0 +1,22 @@
+package com.sprting.annotations;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.sprting.annotations")
+public class SportsConfig {
+	
+	@Bean
+	public FortuneService sadFortuneService()
+	{
+		return new SadFortuneService();
+	}
+	
+	public Coach SwimCoach()
+	{
+		return new SwimCoach(sadFortuneService());
+	}
+
+}

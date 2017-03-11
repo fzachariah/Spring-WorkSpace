@@ -1,0 +1,5 @@
+package com.sprting.annotations;
+
+public class SportsConfig {
+
+}
