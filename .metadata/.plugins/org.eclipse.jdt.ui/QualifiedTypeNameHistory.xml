@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="com.spring.demo.FortuneService"/>
 <fullyQualifiedTypeName name="com.spring.demo.CricketCoach"/>
 <fullyQualifiedTypeName name="com.spring.demo.Coach"/>
-<fullyQualifiedTypeName name="com.sprting.annotations.FortuneService"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.sprting.annotations.HappyFortuneService"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
@@ -20,4 +19,11 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.sprting.annotations.FortuneService"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="com.sprting.annotations.SwimCoach"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>

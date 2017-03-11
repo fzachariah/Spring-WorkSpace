@@ -1,0 +1,5 @@
+package com.febin.spring.mvc;
+
+public class HomeController {
+
+}

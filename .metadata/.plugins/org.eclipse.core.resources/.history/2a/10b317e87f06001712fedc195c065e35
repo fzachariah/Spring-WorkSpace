@@ -1,0 +1,18 @@
+package com.febin.spring.mvc;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloWorldController {
+	
+	//Need a controller method to show the initial form
+	
+	public String showForm()
+	{
+		return "helloworld-form";
+	}
+	
+	
+	//Need a controller metod to process the form
+
+}
