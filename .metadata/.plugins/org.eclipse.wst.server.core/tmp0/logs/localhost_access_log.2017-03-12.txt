@@ -1,0 +1,12 @@
+127.0.0.1 - - [12/Mar/2017:15:29:44 -0400] "GET / HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:29:45 -0400] "GET /spring-mvc-demo/ HTTP/1.1" 200 113
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:29:47 -0400] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:29:51 -0400] "GET /spring-mvc-demo/processFormThree?studentName=Febin HTTP/1.1" 200 140
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:30:12 -0400] "GET /spring-mvc-demo/processFormThree?studentName=Febin HTTP/1.1" 200 144
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:30:12 -0400] "GET /spring-mvc-demo/processFormThree?studentName=Febin HTTP/1.1" 200 144
+127.0.0.1 - - [12/Mar/2017:15:35:11 -0400] "GET / HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:35:12 -0400] "GET /spring-mvc-demo/ HTTP/1.1" 500 10187
+127.0.0.1 - - [12/Mar/2017:15:39:36 -0400] "GET / HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:39:37 -0400] "GET /spring-mvc-demo/ HTTP/1.1" 200 119
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:39:39 -0400] "GET /spring-mvc-demo/hello/showForm HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [12/Mar/2017:15:39:43 -0400] "GET /spring-mvc-demo/hello/processFormThree?studentName=Febin HTTP/1.1" 200 144
