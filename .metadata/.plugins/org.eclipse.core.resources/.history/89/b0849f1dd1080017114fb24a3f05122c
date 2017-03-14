@@ -1,0 +1,12 @@
+package com.febin.spring.mvc;
+
+public class Student {
+	
+	String firstName;
+	String lastNAme;
+	public Student()
+	{
+		
+	}
+
+}
