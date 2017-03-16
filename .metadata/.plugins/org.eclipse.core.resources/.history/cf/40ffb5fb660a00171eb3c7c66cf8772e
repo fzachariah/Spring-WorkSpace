@@ -1,0 +1,5 @@
+package com.febin.hibernate;
+
+public class Student {
+
+}
