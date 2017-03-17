@@ -1,0 +1,36 @@
+package com.febin.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+
+public class ReadStudentDemo2 {
+	
+	public static void main(String args[])
+	{
+		SessionFactory factory=new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class).buildSessionFactory();
+		
+		Session session=factory.getCurrentSession();
+		
+		
+		try{
+			
+			session.beginTransaction();
+			Student objecct=session.get(Student.class, 2);
+			
+			System.out.println(objecct.toString());
+			
+			System.out.println("Done");
+			
+			
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+		finally {
+			factory.close();
+		}
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.febin.hibernate;
+
+public class CreateStudentDemo {
+	
+	public static void main(String args[])
+
+}
