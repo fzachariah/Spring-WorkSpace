@@ -1,7 +1,0 @@
-package com.sprting.annotations;
-
-public interface Coach {
-	
-	public String getDailyWorkout();
-
-}
