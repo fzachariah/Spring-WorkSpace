@@ -1,0 +1,5 @@
+package com.febin.spring.mvc.validation;
+
+public @interface CourseCode {
+
+}

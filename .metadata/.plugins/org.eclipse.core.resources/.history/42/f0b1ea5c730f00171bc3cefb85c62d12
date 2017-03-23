@@ -1,0 +1,5 @@
+package com.febin.rest;
+
+public class Greeting {
+
+}
