@@ -1,0 +1,42 @@
+package com.febin.springdemo.dao;
+
+import java.util.List;
+
+
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.febin.springdemo.entity.Customer;
+
+public class CustomerDAOImpl implements CustomerDAO {
+
+	
+	//nedd to inject the hibernate seesion factory
+	
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@Override
+	@Transactional
+	public List<Customer> getCustomers() {
+		
+		//get current Hibernate session
+		
+		Session session=sessionFactory.getCurrentSession();
+		
+		Query<Customer> theQuery=session.createQuery("from Customer",Customer.class);
+		
+		//create query
+		
+		List<Customer> customers=theQuery.getResultList();
+		
+		//execute query
+		
+		return null;
+	}
+
+}

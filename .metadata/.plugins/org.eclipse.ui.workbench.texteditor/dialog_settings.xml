@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="luv"/>
 			<item value="com.luv2code"/>
 			<item value="love"/>
 			<item value="favoriteLanguage"/>

@@ -1,0 +1,24 @@
+package com.febin.springdemo.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.febin.springdemo.entity.Customer;
+
+public class CustomerDAOImpl implements CustomerDAO {
+
+	
+	//nedd to inject the hibernate seesion factory
+	
+	@Autowired
+	private SessionFactory sessionFactory
+	
+	@Override
+	public List<Customer> getCustomers() {
+		
+		return null;
+	}
+
+}
