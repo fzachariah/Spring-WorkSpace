@@ -1,0 +1,43 @@
+package com.febin.springdemo.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.febin.springdemo.dao.CustomerDAO;
+import com.febin.springdemo.dao.CustomerDAOImpl;
+import com.febin.springdemo.entity.Customer;
+import com.febin.springdemo.service.CustomerService;
+
+@Controller
+@RequestMapping("/customer")
+public class CustomerController {
+	
+	//Need to inject the customer DAO
+	@Autowired
+	private CustomerService customerService;
+	
+	@GetMapping("/list")
+	public String listCustomers(Model theModel )
+	{
+		
+		//get customers fromDAO
+		
+		List<Customer> theCustomers=customerService.getCustomers();
+		theModel.addAttribute("customers", theCustomers);
+		
+		return "list-customers";
+	}
+	
+	@GetMapping("/showFormForAdd")
+	public String showFormForAdd(Model theModel)
+	{
+		return "customer-form";
+	}
+
+}

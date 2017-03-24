@@ -1,0 +1,5 @@
+package com.febin.springdemo.service;
+
+public interface CustomerService {
+
+}

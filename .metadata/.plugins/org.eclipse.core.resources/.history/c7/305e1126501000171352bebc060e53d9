@@ -1,0 +1,21 @@
+package com.febin.springdemo.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.febin.springdemo.dao.CustomerDAO;
+import com.febin.springdemo.entity.Customer;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+	
+	private CustomerDAO customerDAO;
+
+	@Override
+	public List<Customer> getCustomers() {
+		
+		return null;
+	}
+
+}
