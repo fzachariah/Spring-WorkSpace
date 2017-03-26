@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1490504393500_1" label="parent" name="parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-model" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-data" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-data-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-data-impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-business" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-business-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/in28minutes-multi-module-business-impl" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1488933055432_0" label="Window Working Set" name="Aggregate for window 1488933055431"/>
 </workingSetManager>
