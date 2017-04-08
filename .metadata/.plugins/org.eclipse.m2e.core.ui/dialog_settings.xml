@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\febin\Desktop\SampleREST"/>
 			<item value="C:\Users\febin\Downloads\MavenIn28Minutes-master\MavenIn28Minutes-master\3.multi-module-maven-project"/>
 			<item value="C:\Users\febin\Downloads\MavenIn28Minutes-master\MavenIn28Minutes-master\2.intermediate-maven-example"/>
 			<item value="C:\Users\febin\Desktop\TestOne"/>
@@ -57,8 +58,23 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeVersion">
+			<item value="2.25"/>
+		</list>
+		<list key="archetypeGroupId">
+			<item value="org.glassfish.jersey.archetypes"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="jersey-quickstart-webapp"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\febin\Desktop\Spring-WorkSpace\web-customer-tracker"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -71,13 +87,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.febin.springmvc.Spring4MVCHelloWorldRestServiceDemo"/>
+			<item value="org.febin.rest.messenger"/>
 		</list>
 		<list key="groupId">
-			<item value="com.febin.springmvc"/>
+			<item value="org.febin.rest"/>
 		</list>
 		<list key="artifactId">
-			<item value="Spring4MVCHelloWorldRestServiceDemo"/>
+			<item value="messenger"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
